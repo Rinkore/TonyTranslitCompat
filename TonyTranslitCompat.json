@@ -1,0 +1,21 @@
+{
+  "id": "TonyTranslitCompat",
+  "name": "东尼算法×音译尖塔 兼容修复",
+  "author": "Rinkore",
+  "description": "让东尼算法生成的卡牌，也用音译尖塔的方式说话。运行时读音译尖塔自己的译表逐词音译，不内嵌任何词典。无需配置，装上即生效。需同时启用东尼算法与音译尖塔。",
+  "version": "1.0.0",
+  "min_game_version": "0.111.0",
+  "has_pck": false,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "AutoAnthony",
+      "min_version": "0.3.0"
+    },
+    {
+      "id": "TransliterateTheSpire",
+      "min_version": "0.1.0"
+    }
+  ],
+  "affects_gameplay": false
+}
